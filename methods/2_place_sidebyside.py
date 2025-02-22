@@ -8,6 +8,7 @@ window.title("Place Method Tutorial")
 pane = tk.Frame(window)
 pane.pack(fill = BOTH, expand=True)
 
+# button widgets with side to make it side by side.
 b1 = tk.Button(pane, text = "Click me !", background = "red", fg = "white")
 b1.pack(side = LEFT, expand = True, fill = X)
 
