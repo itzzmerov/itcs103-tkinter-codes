@@ -3,7 +3,7 @@ from tkinter import *
 
 window = tk.Tk()
 window.geometry("300x300")
-window.title("Place Method Tutorial")
+window.title("Pack Method Tutorial")
 
 pane = tk.Frame(window)
 pane.pack(fill = BOTH, expand=True)
