@@ -3,7 +3,7 @@ from tkinter import *
 
 window = tk.Tk()
 window.geometry("300x300")
-window.title("Place Method Tutorial")
+window.title("Grid Method Tutorial")
 
 l1 = Label(window, text = "First:")
 l2 = Label(window, text = "Second:")
